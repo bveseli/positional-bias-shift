@@ -18,6 +18,10 @@ Large Language Models (LLMs) often struggle to use information across long input
 
 We use MonoRel, PIR, and Simplified RuleTaker from [Levy et al., 2024](https://arxiv.org/abs/2402.14848) and the BoxTracker entity-tracking dataset from [Kim & Schuster, 2023](https://arxiv.org/abs/2305.02363). We adapt them - adding retrieval-only questions (answers that do not require reasoning, only locating information in the input) and generating new BoxTracker sequences using their framework.
 
+<p align="center">
+  <img src="figures/dataset.png" width="600" alt="positional biases vs. relative length">
+</p>
+
 # Code Usage
 🚧 **In Progress** 🚧  
 

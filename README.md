@@ -14,7 +14,7 @@ Large Language Models (LLMs) often struggle to use information across long input
   - With growing input size, primacy bias increasingly collapses, while the recency bias remains stable. This results in a more distance-based bias, i.e. accuracy higher when evidence is nearer the end.
   - Positional biases in reasoning, specifically the LiM effect, appear to be largely inherited from retrieval.
  
-# Dataset
+# Dataset: Retrieval-Reasoning Minimal Pairs
 
 We use MonoRel, PIR, and Simplified RuleTaker from [Levy et al., 2024](https://arxiv.org/abs/2402.14848) and the BoxTracker entity-tracking dataset from [Kim & Schuster, 2023](https://arxiv.org/abs/2305.02363). We adapt them - adding retrieval-only questions (answers that do not require reasoning, only locating information in the input) and generating new BoxTracker sequences using their framework.
 

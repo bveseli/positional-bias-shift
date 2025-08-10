@@ -21,6 +21,8 @@ Large Language Models (LLMs) often struggle to use information across long input
 🚧 **In Progress** 🚧  
 
 ## Citation
+## Quickstart
+```bash
 @inproceedings{veseli2025positional,
   title={Positional Biases Shift as Inputs Approach Context Window Limits},
   author={Veseli, Blerta and Chibane, Julian and Toneva, Mariya and Koller, Alexander},

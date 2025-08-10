@@ -38,7 +38,7 @@ We probe positional bias by varying two factors:
 For each position and $L_{\text{rel}}$, we pad the instance to the target length and measure accuracy. This relative-length setup isolates positional effects and makes results comparable across models with different window sizes as inputs approach the limit; see the paper for full details.
 
 <p align="center">
-  <img src="figures/method_smaller-1.png" width="800" alt="positional biases vs. relative length">
+  <img src="figures/method_smaller-1.png" width="1000" alt="positional biases vs. relative length">
 </p>
 
 ## Citation

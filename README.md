@@ -7,7 +7,7 @@ Large Language Models (LLMs) often struggle to use information across long input
   <img src="figures/teaser_gemma_retrieval_final-2-1.png" width="500" alt="positional biases vs. relative length">
 </p>
 
-# Key Findings
+## Key Findings
   - Analysis of positional biases using **relative input length** (proportion of a model’s context window) rather than absolute lengths across models.
   - Positional biases are consistent across models when analyzed relative to a model's context window size. 
   - LiM is strongest in input lengths up to 50% of a models context window size.
@@ -29,7 +29,7 @@ We end up with **reasoning-retrieval minimal pairs** that allows us 1) to compar
 🚧 **In Progress** 🚧  
 -->
 
-# Putting Positional Biases in Relation to Context Window Size 
+## Putting Positional Biases in Relation to Context Window Size 
 
 We probe positional bias by varying two factors: 
 1. The input length $L_{base}$ as a fraction of a model’s context window $L_{max}$: $L_{rel}=\frac{L_{base}}{L_{max}}.$ We test relative input lengths $L_{rel}$ ∈ {0.06, 0.12, 0.25, 0.38, 0.5, 0.75, 1.0}.

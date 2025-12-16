@@ -2,7 +2,7 @@
 
 The datasets in this repository are primarily designed for the models evaluated in the paper Positional Biases Shift as Inputs Approach Context Window Limits (arXiv:2508.07479).
 
-These datasets are tailored to the specific tokenizers and context window sizes of the evaluated models. When applying the datasets to other models, samples should be regenerated using the target model’s tokenizer, as token counts can vary substantially across tokenization schemes. Because our analysis focuses on relative input length—defined as the number of input tokens relative to a model’s context window size—consistent tokenization is essential for valid comparisons.
+These datasets are tailored to the specific tokenizers and context window sizes of the evaluated models. When applying the datasets to other models, samples should be regenerated using the target model’s tokenizer, as token counts can vary substantially across tokenization schemes. Because our analysis focuses on relative input length - defined as the number of input tokens relative to a model’s context window size - consistent tokenization is essential for valid comparisons.
 
 
 ## Tokenization Details

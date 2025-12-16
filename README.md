@@ -30,7 +30,7 @@ For each position and $L_{\text{rel}}$, we pad the instance to the target length
 <!--
 ## Dataset: Retrieval-Reasoning Minimal Pairs
 
-We use MonoRel, PIR, and Simplified RuleTaker from [Levy et al., 2024](https://arxiv.org/abs/2402.14848) and the BoxTracker entity-tracking dataset from [Kim & Schuster, 2023](https://arxiv.org/abs/2305.02363). We adapt them - adding retrieval-only questions (answers that do not require reasoning, only locating information in the input) and generating new BoxTracker sequences using their framework.
+We use MonoRel, PIR, and Simplified RuleTaker from [Levy et al., 2024](https://arxiv.org/abs/2402.14848) and the Box entity-tracking dataset from [Kim & Schuster, 2023](https://arxiv.org/abs/2305.02363). We adapt them - adding retrieval-only questions (answers that do not require reasoning, only locating information in the input) and generating new Box sequences using their framework.
 
 We end up with **reasoning-retrieval minimal pairs** that allows us 1) to compare reasoning and retrieval directly and 2) to investigate the dependency between reasoning and retrieval. **Relevant text** refers to the **premises** in the method overview above.
 

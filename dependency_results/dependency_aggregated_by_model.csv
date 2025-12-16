@@ -1,0 +1,7 @@
+model,P(Rea=1|Ret=0),P(Rea=1|Ret=1),P(Rea=1|Ret=1)-P(Rea=1|Ret=0)
+Llama-3.1-70B-Instruct,0.42,0.76,0.34
+Llama-3.3-70B-Instruct,0.35,0.74,0.4
+Meta-Llama-3-70B-Instruct,0.52,0.76,0.23
+Mistral-Small-24B-Instruct-2501,0.39,0.72,0.32
+Qwen2.5-32B-Instruct-32k,0.38,0.81,0.43
+gemma-2-27b-it,0.5,0.79,0.29

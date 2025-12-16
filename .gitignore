@@ -1,0 +1,23 @@
+#Datasets
+data/reasoning_retrieval_dataset.jsonl
+data/wikipedia_dataset.jsonl
+
+#Dependency Analysis
+dependency_results/*.ipynb
+dependency_results/*.pkl
+
+#Figures
+figures/
+
+#Results
+results_old/
+positonal_results/
+
+# Jupyter / OS junk
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+.DS_Store
+._*
+
+# Python
+__pycache__/

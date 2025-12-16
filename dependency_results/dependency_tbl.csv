@@ -1,0 +1,25 @@
+model,dataset,#instances,#Ret=0,#Rea=1|Ret=0,P(Rea=1|Ret=0),P(Rea=1|Ret=1),P(Rea=1|Ret=0)<=0.5,P(Rea=1|Ret=0) << P(Rea=1|Ret=1),P(Rea=1|Ret=1)-P(Rea=1|Ret=0),% Increase
+Llama-3.1-70B-Instruct,Box,4200,1312,394,0.3,0.66,True,True,0.36,120.0
+Llama-3.1-70B-Instruct,MonoRel,4200,591,330,0.56,0.85,False,True,0.29,51.79
+Llama-3.1-70B-Instruct,PIR,4200,540,306,0.57,0.81,False,True,0.24,42.11
+Llama-3.1-70B-Instruct,Simplified RuleTaker,4200,1194,299,0.25,0.7,True,True,0.45,180.0
+Llama-3.3-70B-Instruct,Box,4200,1440,523,0.36,0.55,True,True,0.19,52.78
+Llama-3.3-70B-Instruct,MonoRel,4200,717,352,0.49,0.88,True,True,0.39,79.59
+Llama-3.3-70B-Instruct,PIR,4200,722,283,0.39,0.84,True,True,0.45,115.38
+Llama-3.3-70B-Instruct,Simplified RuleTaker,4200,1374,205,0.15,0.71,True,True,0.56,373.33
+Meta-Llama-3-70B-Instruct,Box,4200,836,350,0.42,0.53,True,True,0.11,26.19
+Meta-Llama-3-70B-Instruct,MonoRel,4200,331,242,0.73,0.91,False,True,0.18,24.66
+Meta-Llama-3-70B-Instruct,PIR,4200,71,35,0.49,0.94,True,True,0.45,91.84
+Meta-Llama-3-70B-Instruct,Simplified RuleTaker,4200,913,415,0.45,0.64,True,True,0.19,42.22
+gemma-2-27b-it,Box,4200,1384,468,0.34,0.7,True,True,0.36,105.88
+gemma-2-27b-it,MonoRel,4200,218,134,0.61,0.92,False,True,0.31,50.82
+gemma-2-27b-it,PIR,4200,143,86,0.6,0.87,False,True,0.27,45.0
+gemma-2-27b-it,Simplified RuleTaker,4200,678,318,0.47,0.67,True,True,0.2,42.55
+Mistral-Small-24B-Instruct-2501,Box,4200,773,298,0.39,0.62,True,True,0.23,58.97
+Mistral-Small-24B-Instruct-2501,MonoRel,4200,433,212,0.49,0.83,True,True,0.34,69.39
+Mistral-Small-24B-Instruct-2501,PIR,4200,165,45,0.27,0.76,True,True,0.49,181.48
+Mistral-Small-24B-Instruct-2501,Simplified RuleTaker,4200,509,212,0.42,0.65,True,True,0.23,54.76
+Qwen2.5-32B-Instruct-32k,Box,4200,688,182,0.26,0.69,True,True,0.43,165.38
+Qwen2.5-32B-Instruct-32k,MonoRel,4200,318,91,0.29,0.84,True,True,0.55,189.66
+Qwen2.5-32B-Instruct-32k,PIR,4200,128,43,0.34,0.87,True,True,0.53,155.88
+Qwen2.5-32B-Instruct-32k,Simplified RuleTaker,4200,350,215,0.61,0.83,False,True,0.22,36.07
